@@ -1,0 +1,1 @@
+This is w+ Operation in file using Python.
