@@ -75,7 +75,7 @@ def delete_data():
     else:
             conn=create_conn()
             cursor=conn.cursor()
-            query="delete* from student where id=%s"
+            query="delete from student where id=%s"
             args=(e_id.get(),)
             cursor.execute(query,args)
             conn.commit()
