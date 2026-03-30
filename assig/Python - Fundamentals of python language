@@ -1,1 +1,53 @@
+# Write a Python program that prints "Hello, World!".
+
+print ("Hello World")
+
+
+#Set up Python on your local machine and write a program to display your name.
+
+
+print("My name is Khushi")
+
+
+            
+
+
+
+# Write a Python program that demonstrates the correct use of indentation, comments, and variables following PEP 8 guidelines.
+
+# This program demonstrates PEP 8 style:
+# - Proper indentation (4 spaces)
+# - Meaningful variable names
+# - Use of comments
+
+
+def greet_user():
+    """Function to greet the user with their name."""
+
+    # Store user's name in a variable
+    user_name = "Khushi"
+
+    # Create a greeting message
+    greeting_message = f"Hello, {user_name}! Welcome to Python programming."
+
+    # Display the message
+    print(greeting_message)
+
+
+# Main program execution starts here
+if __name__ == "__main__":
+    greet_user()
+
+
+
+
+ #This program follows (PEP 8):
+ #Indentation: 4 spaces per level
+ #Variable names: lowercase with underscores (user_name)
+ #Function name: lowercase with words separated by underscores (greet_user)
+ #Comments: Clear and meaningful
+ #Docstring: Used inside the function
+ #Spacing: Proper blank lines for readability
+ 
+
 
